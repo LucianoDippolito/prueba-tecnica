@@ -1,6 +1,5 @@
 import fitz
 
-
 def leer_pdf(ruta_pdf: str) -> str:
     texto = ""
 

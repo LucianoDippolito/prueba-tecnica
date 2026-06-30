@@ -1,6 +1,6 @@
 import json
 from google import genai
-from config import GOOGLE_API_KEY
+from src.config import GOOGLE_API_KEY
 
 def procesar_receta(texto: str) -> dict:
     with open("src/prompts/receta_prompt.txt", "r", encoding="utf-8") as archivo:
